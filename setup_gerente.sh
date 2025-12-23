@@ -14,7 +14,7 @@ sqs = boto3.client('sqs', region_name='sa-east-1')
 asg = boto3.client('autoscaling', region_name='sa-east-1')
 
 QUEUE_URL = '${QUEUE_URL}'
-ASG_NAME = 'Plataforma Jornada'
+ASG_NAME = 'asg-name'
 
 logging.info("ASG Monitor iniciado.")
 
